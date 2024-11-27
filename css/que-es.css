@@ -1,0 +1,103 @@
+/* Variables */
+:root {
+    --primario: #6834a6;
+    --blanco: #FFF;
+    --negro: #000000;
+    --fuentePrincipal: 'Poppins', sans-serif;
+}
+
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--negro);
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.header {
+    background-color: var(--blanco);
+    padding: 1rem 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+.header__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+.header__barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo img {
+    width: 150px;
+}
+.navegacion {
+    display: flex;
+    gap: 2rem;
+}
+.navegacion__link {
+    color: var(--primario);
+    font-weight: 500;
+}
+
+/* Sección principal */
+.seccion {
+    padding: 5rem 0;
+    text-align: center;
+}
+.seccion__heading {
+    font-size: 3rem;
+    color: var(--primario);
+    margin-bottom: 2rem;
+}
+.seccion__texto {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seccion__imagen {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #5A30A0;
+    padding: 3rem 0;
+    color: var(--blanco);
+}
+.footer__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+.footer__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.footer__logo img {
+    width: 150px;
+}
+.navegacion__link--blanco {
+    color: var(--blanco);
+    font-weight: 500;
+}
